@@ -20,3 +20,4 @@ def lista_cursos(request):
     for curso in cursos:
         respuesta += f'{curso.nombre} - {curso.comision}<br>'
     return HttpResponse(respuesta)
+# Comentario pal git
